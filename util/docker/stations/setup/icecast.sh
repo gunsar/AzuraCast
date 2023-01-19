@@ -10,7 +10,7 @@ mkdir -p /bd_build/stations/icecast_build
 cd /bd_build/stations/icecast_build
 
 git clone https://github.com/karlheyes/icecast-kh.git .
-git checkout 3b04a78133b7c4b8f879b55e83c139532976de87
+git checkout 6849c335d90c0b4f4dd5c33f26e4dbd2371a9969
 
 ./configure
 make
